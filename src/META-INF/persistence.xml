@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="JPA-SIL-SIGA" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>entidades.Seccion</class>
+    <class>entidades.Grado</class>
+    <class>entidades.Tipoevaluacion</class>
+    <class>entidades.Alumno</class>
+    <class>entidades.Detallematricula</class>
+    <class>entidades.Cursoporgrado</class>
+    <class>entidades.Docente</class>
+    <class>entidades.Apoderado</class>
+    <class>entidades.Usuario</class>
+    <class>entidades.Matricula</class>
+    <class>entidades.Clase</class>
+    <class>entidades.Nota</class>
+    <class>entidades.Especialidad</class>
+    <class>entidades.Curso</class>
+    <class>entidades.Niveleducacion</class>
+    <class>entidades.Parentesco</class>
+    <class>entidades.Periodo</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/sil-siga"/>
+      <property name="javax.persistence.jdbc.password" value="123456"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+    </properties>
+  </persistence-unit>
+</persistence>
